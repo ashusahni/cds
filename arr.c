@@ -1,7 +1,15 @@
 #include <stdio.h>
 
 int main (){
-    char st[]= {'a','b','c' '\0'};
-    printf("first char is %c \n", st[0]);
-    return 0;
+
+int marks[3];
+printf("marks of 5 students \n" );
+
+for (int i = 0; i<5; i++){
+    scanf("%d", &marks[i]);
+}
+
+printf("marks of zero and 1 is   %d %d", marks[0],marks[1]);
+return 0;
+
 }
