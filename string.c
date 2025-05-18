@@ -18,5 +18,4 @@ int main (void){
         }
 
     // printf("u enter : %d\n", n);
-
 }
